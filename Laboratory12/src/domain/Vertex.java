@@ -30,6 +30,9 @@ public class Vertex {
         this.visited = visited;
     }
     
-    
+    @Override
+    public String toString(){
+        return "Vertex: "+this.data;
+    }
     
 }
